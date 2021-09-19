@@ -28,7 +28,7 @@ public class Repeatrate{
         return  check[s1.length()-1][s2.length()-1];
     }
 
-    static float rate(String path1, String path2) throws IOException {
+    public static float rate(String path1, String path2) throws IOException {
         float rate;
         System.out.println("Ô­ÎÄ£º"+path1);
         System.out.println("³­Ï®£º"+path2);
